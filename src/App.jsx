@@ -2,7 +2,6 @@ import './App.css'
 import TextSlider from './TextSlider';
 import logo from './assets/logo.png'
 import video from './assets/video.mp4'
-
 function App() {
   const slides = ["PHASE ONE<br>Launch Website <br>Social Media", "PHASE TWO<br>Launch Website <br>Social Media", "PHASE THREE<br>Launch Website <br>Social Media"]; // Add your slides here
  
@@ -189,9 +188,11 @@ function App() {
          
       </section>
 
-      <section className="w-screen bg-contain bg-no-repeat  bg-blue-50 p-6">
-             <div className='p-6 mx-2 h'>
-            <div className="flex flex-col text-center justify-center items-center">
+      <section className="w-screen bg-[url('./assets/ni.jpg')] bg-cover bg-no-repeat p-6">
+      
+             <div className='p-6 mx-2 '>
+        
+            <div className="flex flex-col text-center text-white justify-center items-center">
            <h2 className='text-[25px] font-head'>JOIN  ISWI COMMUNITY</h2>
            <p className='font-texts'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis dolore ullam.</p>
             </div>
