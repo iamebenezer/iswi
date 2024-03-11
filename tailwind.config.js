@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily:{
         'head': 'head',
-        'text': 'text',
+        'texts': 'texts',
+        'hero': 'hero',
       }
     },
   },
