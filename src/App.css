@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body{
+  overflow-x: hidden;
+}
 @font-face {
   font-family: head;
   src: url(/src/assets/progress-font/ProgressPersonalUse-EaJdz.ttf);
@@ -9,4 +12,17 @@
 @font-face {
   font-family: texts;
   src: url(/src/assets/ZTMota-Regular.ttf);
+}
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.slider-item {
+  min-width: 100%;
 }
