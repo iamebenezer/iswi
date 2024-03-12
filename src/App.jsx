@@ -4,6 +4,8 @@ import logo from './assets/logo.png'
 import video from './assets/video.mp4'
 import { FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Navbar from './Navbar'
+import imageOne from './assets/N2.jpeg'
+import imageTwo from './assets/goal.jpeg'
 import teamOne from './assets/team-1.png'
 import teamTwo from './assets/team-2.png'
 import teamThree from './assets/team-3.png'
@@ -100,7 +102,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
                    fuga minima enim ullam consectetur, deleniti soluta nostrum voluptate a voluptatem quo.</p>
               </div>
               <div className="shadow-gray-200 shadow-lg w-80 md:w-fit">
-                <img className='rounded-2xl object-contain' src="https://www.aljazeera.com/wp-content/uploads/2023/12/AP23290670138826-1703627277.jpg?resize=1170%2C780&quality=80" alt="" />
+                <img className='rounded-2xl object-contain' src={imageOne} alt="" />
               </div>
             </div>
             </div>
@@ -112,6 +114,9 @@ The future of Israel is bright, and you have the power to make a difference. (IS
             <div className="flex flex-col text-center justify-center items-center">
            <h1 className='text-[30px] font-head'> Our Goal</h1>
            <p className='font-texts'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis dolore ullam.</p>
+            </div>
+            <div className='justify-center flex items-center'>
+              <img src={imageTwo} className=' rounded-3xl my-3' alt="" />
             </div>
      
 
@@ -300,7 +305,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
          
       </section>
 
-      <section className="w-screen bg-[url('./assets/ni.jpg')] bg-cover bg-no-repeat p-6">
+      <section className="w-screen bg-[url('./assets/n4.jpg')] bg-cover bg-no-repeat p-6">
       
              <div className='p-6 mx-2' data-aos="zoom-in"  data-aos-easing="linear"  data-aos-duration="1500">
         
@@ -314,7 +319,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
                  <a href="" className='
                   bg-[#202b8f] transition duration-150 ease-in-out
                  border-white border-2 px-8 py-2 rounded-lg text-lg md:text-2xl 
-                 font-head text-white shadow-blue-50 shadow-sm'>Join </a>
+                 font-head text-white shadow-blue-50 shadow-sm'>Join</a>
                  </div>
 
      </div>
@@ -322,9 +327,10 @@ The future of Israel is bright, and you have the power to make a difference. (IS
       </section>
 
       <footer className="w-screen bg-contain bg-no-repeat  bg-blue-100/80 p-6">
-              <div className="flex flex-col text-center md:text-start md:flex-row justify-between items-center">
-                <div>
-                  <img src={logo} className='w-16 spin' alt="" />
+              <div className="flex flex-col text-center md:text-start md:flex-row gap-2 justify-between items-center">
+                <div className='flex flex-row items-center justify-center'>
+                  <img src={logo} className='w-16 spin' alt="" />   <span className='font-head'>ISWI</span>  
+                
                 </div>
                 <div>
                   <h2 className='font-head'>Quick Links</h2>
