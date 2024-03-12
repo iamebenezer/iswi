@@ -14,8 +14,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0 text-white">
-                    <img src={logo} className='w-12' alt="" />
+            <div className="flex-shrink-0 flex justify-center items-center font-head gap-1 text-white">
+                    <img src={logo} className='w-12' alt="" />  ISWI
             </div>
             <div className="hidden md:block">
               <div className="ml-10 font-head flex items-baseline space-x-4">
