@@ -10,11 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#1b236d] absolute top-0 left-0 right-0">
+    <nav className="bg-[#1b236d] fixed h-fit w-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0 flex justify-center items-center font-head gap-1 text-white">
+            <div className="flex justify-center items-center font-head gap-1 text-white">
                     <img src={logo} className='w-12' alt="" />  ISWI
             </div>
             <div className="hidden md:block">
@@ -60,7 +60,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className={`${isOpen ? 'block ' : 'hidden'} md:hidden `}>
+      <div className={`${isOpen ? 'flex justify-center ' : 'hidden'} md:hidden `}>
         <div className="px-2 pt-2 pb-3 text-center font-head space-y-1 sm:px-3">
           <a href="#" className="text-white block">Home</a>
           <a href="#" className="text-white block">About</a>

@@ -19,9 +19,11 @@ function App() {
   const slides = ["PHASE ONE<br>Launch Website <br>Social Media", "PHASE TWO<br>Launch Website <br>Social Media", "PHASE THREE<br>Launch Website <br>Social Media"]; // Add your slides here
     
   return (
+    
    <div>
-        
+            
       <section className="bg-[url('./assets/bg.png')] text-white w-screen h-screen bg-center bg-cover">
+      <Navbar/>
         {/* <div className="overlay"></div> */}
       {/* <video src={video} controls={true} playsInline loop={true} muted={true} autoPlay={true} className='h-screen w-screen object-cover'></video>
          */}
@@ -50,7 +52,7 @@ function App() {
                     </ul>
                   </div>
             </nav> */}
-              <Navbar/>
+          
               
             <div 
             data-aos="fade-down"
