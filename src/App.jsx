@@ -59,8 +59,10 @@ function App() {
             >
               <div className=''>
                 <h1 className='font-hero text-shadow-one md:text-[60px] text-white drop-shadow-3xl text-[30px]'>I STAND WITH ISRAEL</h1>
-                <p className='text-white font-texts md:text-[25px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odit explicabo maiores ipsam!
-                   Doloremque dolorem molestias recusandae eum quas quae deserunt culpa? Aut, illum at?</p>
+                <p className='text-white font-texts md:text-[25px]'>
+                Be Part of the Movement. Join (ISWI)!
+The future of Israel is bright, and you have the power to make a difference. (ISWI) isn't just a coin, it's a community united by a shared passion.
+                </p>
                  <div className='my-4'>
                  <a href="" className='bg-transparent border
                   hover:bg-[#1c2152] transition duration-150 ease-in-out
