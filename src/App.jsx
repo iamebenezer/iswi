@@ -65,7 +65,7 @@ function App() {
 
             </div>
       </section>
-
+{/* 
       <section className="strips">
             <div className="strip-1"></div>
             <div className="strip-2">
@@ -77,7 +77,7 @@ function App() {
                     </div>
                 </marquee>
             </div>
-        </section>
+        </section> */}
       <section className='h-fit bg-blue-50 p-6'>
             <div className='p-6 mx-2'   data-aos="fade-up"
             data-aos-easing="linear"
