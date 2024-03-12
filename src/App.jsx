@@ -256,6 +256,42 @@ function App() {
       </div>
             </div>
 
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8  p-8 place-items-center">
+              <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
+          
+                  <img src={logo} className='w-24 rounded-xl' alt="" />
+                    <div className="text-center">
+                      <h2 className='font-head'>Name</h2>
+                      <p className='font-texts'>Lorem, ipsum.</p>
+                      <a href="" className='flex justify-center my-1'
+                  ><FaTelegram size={25}/></a>
+                    </div>
+
+              </div>
+              <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
+          
+          <img src={logo} className='w-24 rounded-xl' alt="" />
+            <div className="text-center">
+              <h2 className='font-head'>Name</h2>
+              <p className='font-texts'>Lorem, ipsum.</p>
+              <a href="" className='flex justify-center my-1'
+          ><FaTelegram size={25}/></a>
+            </div>
+
+      </div>
+      <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
+          
+          <img src={logo} className='w-24 rounded-xl' alt="" />
+            <div className="text-center">
+              <h2 className='font-head'>Name</h2>
+              <p className='font-texts'>Lorem, ipsum.</p>
+              <a href="" className='flex justify-center my-1'
+          ><FaTelegram size={25}/></a>
+            </div>
+
+      </div>
+            </div>
+
               <div className='my-4 flex justify-center items-center'>
                  <a href="" className='
                   bg-[#202b8f] transition duration-150 ease-in-out

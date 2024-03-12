@@ -25,7 +25,7 @@ const TextSlider = ({ slides }) => {
         </button> */}
       </div>
       <div className="flex justify-center items-center h-32 p-4">
-        <p className="text-xl text-center font-head font-bold" dangerouslySetInnerHTML={{ __html: slides[currentSlide] }}></p>
+        <p className="text-xl text-center font-texts font-bold" dangerouslySetInnerHTML={{ __html: slides[currentSlide] }}></p>
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <button
