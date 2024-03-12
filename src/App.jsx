@@ -4,6 +4,11 @@ import logo from './assets/logo.png'
 import video from './assets/video.mp4'
 import { FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Navbar from './Navbar'
+import teamOne from './assets/team-1.png'
+import teamTwo from './assets/team-2.png'
+import teamThree from './assets/team-3.png'
+import teamFour from './assets/team-4.png'
+import teamFive from './assets/team-5.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -223,10 +228,10 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8  p-8 place-items-center">
               <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
-                  <img src={logo} className='w-24 rounded-xl' alt="" />
+                  <img src={teamOne} className='w-24 rounded-xl' alt="" />
                     <div className="text-center">
-                      <h2 className='font-head'>Name</h2>
-                      <p className='font-texts'>Lorem, ipsum.</p>
+                      <h2 className='font-head'>David C.</h2>
+                      <p className='font-texts'>Team Lead</p>
                       <a href="" className='flex justify-center my-1'
                   ><FaTelegram size={25}/></a>
                     </div>
@@ -234,10 +239,10 @@ function App() {
               </div>
               <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
-          <img src={logo} className='w-24 rounded-xl' alt="" />
+          <img src={teamTwo} className='w-24 rounded-xl' alt="" />
             <div className="text-center">
-              <h2 className='font-head'>Name</h2>
-              <p className='font-texts'>Lorem, ipsum.</p>
+              <h2 className='font-head'>Alex L.</h2>
+              <p className='font-texts'>Telegrm and Support</p>
               <a href="" className='flex justify-center my-1'
           ><FaTelegram size={25}/></a>
             </div>
@@ -245,10 +250,10 @@ function App() {
       </div>
       <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
-          <img src={logo} className='w-24 rounded-xl' alt="" />
+          <img src={teamThree} className='w-24 rounded-xl' alt="" />
             <div className="text-center">
-              <h2 className='font-head'>Name</h2>
-              <p className='font-texts'>Lorem, ipsum.</p>
+              <h2 className='font-head'>Sarah S.</h2>
+              <p className='font-texts'>Twitter Unity Leader</p>
               <a href="" className='flex justify-center my-1'
           ><FaTelegram size={25}/></a>
             </div>
@@ -256,13 +261,13 @@ function App() {
       </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8  p-8 place-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8  p-8 place-items-center">
               <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
-                  <img src={logo} className='w-24 rounded-xl' alt="" />
+                  <img src={teamFour} className='w-24 rounded-xl' alt="" />
                     <div className="text-center">
-                      <h2 className='font-head'>Name</h2>
-                      <p className='font-texts'>Lorem, ipsum.</p>
+                      <h2 className='font-head'>Max S.</h2>
+                      <p className='font-texts'>Back-end designer</p>
                       <a href="" className='flex justify-center my-1'
                   ><FaTelegram size={25}/></a>
                     </div>
@@ -270,26 +275,16 @@ function App() {
               </div>
               <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
-          <img src={logo} className='w-24 rounded-xl' alt="" />
+          <img src={teamFive} className='w-24 rounded-xl' alt="" />
             <div className="text-center">
-              <h2 className='font-head'>Name</h2>
-              <p className='font-texts'>Lorem, ipsum.</p>
+              <h2 className='font-head'>Eliana A.</h2>
+              <p className='font-texts'>Front-end designer</p>
               <a href="" className='flex justify-center my-1'
           ><FaTelegram size={25}/></a>
             </div>
 
       </div>
-      <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
-          
-          <img src={logo} className='w-24 rounded-xl' alt="" />
-            <div className="text-center">
-              <h2 className='font-head'>Name</h2>
-              <p className='font-texts'>Lorem, ipsum.</p>
-              <a href="" className='flex justify-center my-1'
-          ><FaTelegram size={25}/></a>
-            </div>
-
-      </div>
+      
             </div>
 
               <div className='my-4 flex justify-center items-center'>
