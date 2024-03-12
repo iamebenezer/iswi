@@ -16,8 +16,20 @@ function App() {
         
       <section className="bg-[url('./assets/bg.png')] text-white w-screen h-screen bg-center bg-cover">
         <div className="overlay"></div>
-      <video src={video} controls={true} loop={true} muted={true} autoPlay={true} className='h-screen w-screen object-cover'></video>
-     
+      {/* <video src={video} controls={true} playsInline loop={true} muted={true} autoPlay={true} className='h-screen w-screen object-cover'></video>
+         */}
+               <div dangerouslySetInnerHTML={{ __html: `
+        <video
+          loop
+          muted
+          autoplay
+          playsinline
+          src="${video}"
+          class="h-screen w-screen object-cover"
+          
+        />,
+      ` }}></div>
+
             {/* <nav className="absolute top-0 right-0 left-0 flex justify-between items-center p-6 md:p-12 md:mx-8">
               <div className="">
                 <img src={logo} className='w-16' alt="" />
