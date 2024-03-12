@@ -15,7 +15,7 @@ function App() {
    <div>
         
       <section className="bg-[url('./assets/bg.png')] text-white w-screen h-screen bg-center bg-cover">
-        <div className="overlay"></div>
+        {/* <div className="overlay"></div> */}
       {/* <video src={video} controls={true} playsInline loop={true} muted={true} autoPlay={true} className='h-screen w-screen object-cover'></video>
          */}
                <div dangerouslySetInnerHTML={{ __html: `
@@ -50,9 +50,9 @@ function App() {
             data-aos-easing="linear"
             data-aos-duration="1500"
             
-            className="absolute left-0 bottom-0 right-0 flex justify-center p-32 text-center items-center md:p-24 md:mx-24"
+            className="absolute left-0 bottom-0 right-0 flex justify-center py-60 text-center items-center md:p-24 md:mx-24"
             >
-              <div className='p-36 md:p-0 -mx-32 md:-mx-0'>
+              <div className=''>
                 <h1 className='font-hero text-shadow-one md:text-[60px] text-white drop-shadow-3xl text-[30px]'>I STAND WITH ISRAEL</h1>
                 <p className='text-white font-texts md:text-[25px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odit explicabo maiores ipsam!
                    Doloremque dolorem molestias recusandae eum quas quae deserunt culpa? Aut, illum at?</p>
