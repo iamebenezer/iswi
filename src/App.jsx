@@ -16,7 +16,7 @@ function App() {
         
       <section className="bg-[url('./assets/bg.png')] text-white w-screen h-screen bg-center bg-cover">
         <div className="overlay"></div>
-      <video src={video} loop autoPlay muted className='h-screen w-screen object-cover'></video>
+      <video src={video} controls={false} loop={true} muted={true} autoPlay={true} className='h-screen w-screen object-cover'></video>
      
             {/* <nav className="absolute top-0 right-0 left-0 flex justify-between items-center p-6 md:p-12 md:mx-8">
               <div className="">

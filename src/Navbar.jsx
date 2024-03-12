@@ -18,7 +18,7 @@ const Navbar = () => {
                     <img src={logo} className='w-12' alt="" />
             </div>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
+              <div className="ml-10 font-head flex items-baseline space-x-4">
                 <a href="#" className="text-white">Home</a>
                 <a href="#" className="text-white">About</a>
                 <a href="#" className="text-white">Services</a>

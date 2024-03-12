@@ -10,15 +10,15 @@ body{
 }
 @font-face {
   font-family: head;
-  src: url(/src/assets/Akira\ Expanded\ Demo.otf);
+  src: url(/src/assets/akira.otf);
 }
 @font-face {
   font-family: texts;
-  src: url(/src/assets/sui_generis/sui\ generis\ rg.otf);
+  src: url(/src/assets/gen.otf);
 }
 @font-face {
   font-family: hero;
-  src: url(/src/assets/Ghost\ Factory.ttf);
+  src: url(/src/assets/ghost.ttf);
 }
 .slider-container {
   overflow: hidden;
