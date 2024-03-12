@@ -21,8 +21,8 @@ const Navbar = () => {
               <div className="ml-10 font-head flex items-baseline space-x-4">
                 <a href="#" className="text-white">Home</a>
                 <a href="#" className="text-white">About</a>
-                <a href="#" className="text-white">Services</a>
-                <a href="#" className="text-white">Contact</a>
+                <a href="#" className="text-white">Roadmap</a>
+                <a href="#" className="text-white">Tokenomics</a>
               </div>
             </div>
           </div>
@@ -64,8 +64,8 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 text-center font-head space-y-1 sm:px-3">
           <a href="#" className="text-white block">Home</a>
           <a href="#" className="text-white block">About</a>
-          <a href="#" className="text-white block">Services</a>
-          <a href="#" className="text-white block">Contact</a>
+          <a href="#" className="text-white block">Roadmap</a>
+          <a href="#" className="text-white block">Tokenomics</a>
         </div>
       </div>
     </nav>
