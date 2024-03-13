@@ -20,9 +20,11 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 font-head flex items-baseline space-x-4">
                 <a href="#" className="text-white">Home</a>
-                <a href="#" className="text-white">About</a>
-                <a href="#" className="text-white">Roadmap</a>
-                <a href="#" className="text-white">Tokenomics</a>
+                <a href="#about" className="text-white">About</a>
+                <a href="#goal" className="text-white">About</a>
+                <a href="#road" className="text-white">Roadmap</a>
+                <a href="#team" className='text-white'>Team</a>
+                <a href="#token" className="text-white">Tokenomics</a>
               </div>
             </div>
           </div>
@@ -63,9 +65,17 @@ const Navbar = () => {
       <div className={`${isOpen ? 'block ' : 'hidden'} md:hidden `}>
         <div className="px-2 pt-2 pb-3 text-center font-head space-y-1 sm:px-3">
           <a href="#" className="text-white block">Home</a>
-          <a href="#" className="text-white block">About</a>
-          <a href="#" className="text-white block">Roadmap</a>
-          <a href="#" className="text-white block">Tokenomics</a>
+          <a href="#about" className="text-white block">About</a>
+          <a href="#goal" className="text-white">Goals</a>
+          <a href="#road" className="text-white block">Roadmap</a>
+          <a href="#team" className="text-white block">Team</a>
+          <a href="#token" className="text-white block">Tokenomics</a>
+          {/* <div className='mt-8'>
+          <a href="" className='
+                  bg-[#fff] transition duration-150 ease-in-out
+                 border-white border-2 px-8 py-2 rounded-lg text-lg md:text-2xl 
+                 font-head text-[#202b8f] shadow-blue-50 shadow-sm'>Join</a>
+                 </div> */}
         </div>
       </div>
     </nav>

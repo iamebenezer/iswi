@@ -89,7 +89,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
                 </marquee>
             </div>
         </section>
-      <section className='h-fit bg-blue-50 p-6'>
+      <section className='h-fit bg-blue-50 p-6 ' id='about'>
             <div className='p-6 mx-2'   data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -110,7 +110,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
             </div>
       </section>
 
-      <section className="w-screen bg-contain bg-no-repeat  bg-blue-100/80 p-6">
+      <section className="w-screen bg-contain bg-no-repeat  bg-blue-100/80 p-6" id='goal'>
              <div className='p-6 mx-2' data-aos="fade-up"
             data-aos-easing="linear">
             <div className="flex flex-col text-center justify-center items-center">
@@ -156,7 +156,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
          
       </section>
 
-      <section className="w-screen bg-contain bg-no-repeat  bg-blue-50 p-6">
+      <section className="w-screen bg-contain bg-no-repeat  bg-blue-50 p-6" id='road'>
              <div className='p-6 mx-2 '  data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1500">
@@ -183,7 +183,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
 
 
 
-      <section className="w-screen bg-contain bg-no-repeat  bg-blue-100/80 p-6">
+      <section className="w-screen bg-contain bg-no-repeat  bg-blue-100/80 p-6" id='token'>
              <div className='p-6 mx-2 h'>
             <div className="flex flex-col text-center justify-center items-center">
            <h2 className='text-[30px] font-head' data-aos="fade-up"
@@ -226,7 +226,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
       </section>
 
 
-      <section className="w-screen bg-contain bg-no-repeat  bg-blue-50 p-6">
+      <section className="w-screen bg-contain bg-no-repeat  bg-blue-50 p-6" id='team'>
              <div className='p-6 mx-2 ' data-aos="fade-up"
             data-aos-easing="linear"  data-aos-duration="1500">
             <div className="flex flex-col text-center justify-center items-center">
