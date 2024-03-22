@@ -7,6 +7,7 @@ html, body{
 }
 body{
   overflow-x: hidden;
+  background-color: #000;
 }
 @font-face {
   font-family: head;
@@ -70,14 +71,14 @@ body{
 }
 
 .strip-1 {
-  background: #202b8f;
+  background: #00340a;
   opacity: 90%;
   padding: 2px;
   transform: rotate(-1.003deg);
 }
 
 .strip-2 {
-  background: #202b8f;
+  background: #00340a;
   transform: rotate(-5deg);
   padding: .2vw;
   margin-top: -5.5vw;
@@ -90,7 +91,9 @@ body{
   gap: 2vw;
   padding: 1vw 0;
 }
-
+.text-shadow{
+  text-shadow: 2px 2px 2px green;
+}
 .spin{
   animation-name:spin;
   animation-timing-function: ease-in-out;

@@ -10,12 +10,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#1b236d] fixed w-screen navbar">
+    <nav className="bg-[#131313] fixed w-screen navbar">
       <div className="max-w-7xl pt-8 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex justify-center items-center font-head gap-1 text-white">
-                    <img src={logo} className='w-12' alt="" />  ISWI
+                    <img src={logo} className='w-12' alt="" />  ISWP
             </div>
             <div className="hidden md:block">
               <div className="ml-10 font-head flex items-baseline space-x-4">
@@ -23,7 +23,8 @@ const Navbar = () => {
                 <a href="#about" className="text-white">About</a>
                 <a href="#goal" className="text-white">About</a>
                 <a href="#road" className="text-white">Roadmap</a>
-                <a href="#team" className='text-white'>Team</a>
+                {/* <a href="#team" className='text-white'>Team</a>
+               */}
                 <a href="#token" className="text-white">Tokenomics</a>
               </div>
             </div>
@@ -68,7 +69,8 @@ const Navbar = () => {
           <a href="#about" className="text-white block">About</a>
           <a href="#goal" className="text-white">Goals</a>
           <a href="#road" className="text-white block">Roadmap</a>
-          <a href="#team" className="text-white block">Team</a>
+          {/* <a href="#team" className="text-white block">Team</a>
+        */}
           <a href="#token" className="text-white block">Tokenomics</a>
           {/* <div className='mt-8'>
           <a href="" className='

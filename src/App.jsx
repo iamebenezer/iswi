@@ -4,8 +4,8 @@ import logo from './assets/logo.png'
 import video from './assets/video.mp4'
 import { FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Navbar from './Navbar'
-import imageOne from './assets/N2.jpeg'
-import imageTwo from './assets/goal.jpeg'
+import imageOne from './assets/main.jpeg'
+import imageTwo from './assets/new.jpg'
 import teamOne from './assets/team-1.png'
 import teamTwo from './assets/team-2.png'
 import teamThree from './assets/team-3.png'
@@ -62,18 +62,18 @@ function App() {
             className="absolute left-0 bottom-0 right-0 flex justify-center py-60 text-center items-center md:p-24 md:mx-24"
             >
               <div className=''>
-                <h1 className='font-hero text-shadow-one md:text-[60px] text-white drop-shadow-3xl text-[30px]'>I STAND WITH ISRAEL</h1>
+                <h1 className='font-hero text-shadow-one md:text-[60px] text-green-200 text-shadow drop-shadow-3xl text-[30px]'>I STAND WITH PARKISTAN</h1>
                 <p className='text-white font-texts md:text-[25px]'>
-                Be Part of the Movement. Join (ISWI)!
-The future of Israel is bright, and you have the power to make a difference. (ISWI) isn't just a coin, it's a community united by a shared passion.
+                Be Part of the Movement. Join (ISWP)!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis adipisci obcaecati aspernatur.
                 </p>
                  <div className='my-4'>
                  <a href="" className='bg-transparent border
-                  hover:bg-[#1c2152] transition duration-150 ease-in-out
+                  hover:bg-green-950 transition duration-150 ease-in-out
                  border-white px-8 py-2 rounded-lg text-2xl whitespace-nowrap font-head text-white shadow-blue-50 shadow-sm'>Join Community</a>
                  </div>
               </div>
-
+            
             </div>
       </section>
 
@@ -82,14 +82,14 @@ The future of Israel is bright, and you have the power to make a difference. (IS
             <div className="strip-2">
                 <marquee behavior="scroll" direction="right" scrollamount="15">
                     <div className="sub-strip2 text-white font-head">
-                        I STAND WITH ISRAEL, 
-                        I STAND WITH ISRAEL, 
-                        I STAND WITH ISRAEL
+                        I STAND WITH Pakistan, 
+                        I STAND WITH Pakistan, 
+                        I STAND WITH Pakistan
                     </div>
                 </marquee>
             </div>
         </section>
-      <section className='h-fit bg-blue-50 p-6 ' id='about'>
+      <section className='h-fit bg-black text-white p-6 ' id='about'>
             <div className='p-6 mx-2'   data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -99,18 +99,18 @@ The future of Israel is bright, and you have the power to make a difference. (IS
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-4 place-items-center">
-              <div className="shadow-gray-400 shadow-lg p-4 rounded-lg w-80 md:w-fit">
+              <div className="shadow-gray-800 shadow-lg p-4 rounded-lg w-80 md:w-fit">
                 <p className='text-center font-texts'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci pariatur natus
                    fuga minima enim ullam consectetur, deleniti soluta nostrum voluptate a voluptatem quo.</p>
               </div>
-              <div className="shadow-gray-200 shadow-lg w-80 md:w-fit">
+              <div className="shadow-gray-800 shadow-lg w-80 md:w-fit">
                 <img className='rounded-2xl object-contain' src={imageOne} alt="" />
               </div>
             </div>
             </div>
       </section>
 
-      <section className="w-screen bg-contain bg-no-repeat  bg-blue-100/80 p-6" id='goal'>
+      <section className="w-screen bg-contain bg-no-repeat  bg-black/95 text-white p-6" id='goal'>
              <div className='p-6 mx-2' data-aos="fade-up"
             data-aos-easing="linear">
             <div className="flex flex-col text-center justify-center items-center">
@@ -118,36 +118,36 @@ The future of Israel is bright, and you have the power to make a difference. (IS
            <p className='font-texts'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis dolore ullam.</p>
             </div>
             <div className='justify-center flex items-center'>
-              <img src={imageTwo} className=' rounded-3xl my-3' alt="" />
+              <img src={imageTwo} className=' rounded-[80px] w-80 my-3' alt="" />
             </div>
      
 
             <div className="grid grid-cols-3 md:grid-cols-3 p-4 gap-12 place-items-center">
-              <div className="shadow-gray-400 shadow-lg p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg p-4 rounded-lg">
                 <p className='text-center font-texts'>Support</p>
               </div>
-              <div className="shadow-gray-400 shadow-lg p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg p-4 rounded-lg">
                 <p className='text-center font-texts'>Support</p>
               </div>
-              <div className="shadow-gray-400 shadow-lg p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg p-4 rounded-lg">
                 <p className='text-center font-texts'>Support</p>
               </div>
               </div>
               <div className="grid grid-cols-3 md:grid-cols-3 p-4 gap-10 place-items-center">
-              <div className="shadow-gray-400 shadow-lg p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg p-4 rounded-lg">
                 <p className='text-center font-texts'>Support</p>
               </div>
-              <div className="shadow-gray-400 shadow-lg p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg p-4 rounded-lg">
                 <p className='text-center font-texts'>Support</p>
               </div>
-              <div className="shadow-gray-400 shadow-lg p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg p-4 rounded-lg">
                 <p className='text-center font-texts'>Support</p>
               </div>
               </div>
 
               <div className='my-4 flex justify-center items-center'>
                  <a href="" className='
-                  bg-[#202b8f] transition duration-150 ease-in-out
+                  bg-green-950 transition duration-150 ease-in-out
                  border-white border-2 px-8 py-2 rounded-lg text-lg md:text-2xl 
                  font-head text-white shadow-blue-50 shadow-sm'>Whitepaper</a>
                  </div>
@@ -156,7 +156,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
          
       </section>
 
-      <section className="w-screen bg-contain bg-no-repeat  bg-blue-50 p-6" id='road'>
+      <section className="w-screen bg-contain bg-no-repeat  bg-black text-white p-6" id='road'>
              <div className='p-6 mx-2 '  data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1500">
@@ -166,13 +166,50 @@ The future of Israel is bright, and you have the power to make a difference. (IS
             </div>
 
             <div className='my-8'>
-            <TextSlider slides={slides} />
+            {/* <TextSlider slides={slides} /> */}
+            <div className="flex flex-col text-center justify-center items-center">
+        
+          
 
+                  <img src={logo} data-aos="fade-up"
+            data-aos-easing="linear" className='w-32 floating' alt="" />
+
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 place-items-center">
+            <div className="shadow-gray-800 bg-green-900 shadow-sm hover:bg-black w-80 md:fit p-4 rounded-lg " data-aos="fade-left"
+            data-aos-easing="linear" data-aos-duration="1500" >
+              <h3 className='font-head text-[20px]'>Phase 1</h3>
+                <p className='text-center font-texts'>lorem</p>
+                <p className='text-center font-texts'>lorem</p>
+                <p className='text-center font-texts'>lorem</p>
+              </div>
+              <div className="shadow-gray-800 shadow-sm bg-green-900 hover:bg-black w-80 md:fit p-4 rounded-lg" data-aos="fade-right"
+            data-aos-easing="linear"  data-aos-duration="1500">
+              <h3 className='font-head text-[20px]'>Phase 2</h3>
+                <p className='text-center font-texts'>lorem</p>
+                <p className='text-center font-texts'>lorem</p>
+                <p className='text-center font-texts'>lorem</p>
+              </div>
+              <div className="shadow-gray-800 shadow-sm bg-green-900 hover:bg-black w-80 md:fit p-4 rounded-lg" data-aos="fade-left"
+            data-aos-easing="linear"  data-aos-duration="1500">
+              <h3 className='font-head text-[20px]'>Phase 3</h3>
+                <p className='text-center font-texts'>lorem</p>
+                <p className='text-center font-texts'>lorem</p>
+                <p className='text-center font-texts'>lorem</p>
+              </div>
+              <div className="shadow-gray-800 shadow-sm bg-green-900 hover:bg-black w-80 md:fit p-4 rounded-lg" data-aos="fade-right"
+            data-aos-easing="linear"  data-aos-duration="1500">
+              <h3 className='font-head text-[20px]'>Phasse 4</h3>
+                <p className='text-center font-texts'>lorem</p>
+                <p className='text-center font-texts'>lorem</p>
+                <p className='text-center font-texts'>lorem</p>
+              </div>
+            </div>
+            </div>
             </div>
 
               <div className='my-4 flex justify-center items-center'>
                  <a href="" className='
-                  bg-[#202b8f] transition duration-150 ease-in-out
+                  bg-green-950 transition duration-150 ease-in-out
                  border-white border-2 px-8 py-2 rounded-lg text-lg md:text-2xl 
                  font-head text-white shadow-blue-50 shadow-sm'>Whitepaper</a>
                  </div>
@@ -183,39 +220,39 @@ The future of Israel is bright, and you have the power to make a difference. (IS
 
 
 
-      <section className="w-screen bg-contain bg-no-repeat  bg-blue-100/80 p-6" id='token'>
+      <section className="w-screen bg-contain bg-no-repeat  bg-black/95 text-white p-6" id='token'>
              <div className='p-6 mx-2 h'>
-            <div className="flex flex-col text-center justify-center items-center">
-           <h2 className='text-[30px] font-head' data-aos="fade-up"
-            data-aos-easing="linear">Tokenomics</h2>
-          
+              <div className="flex flex-col text-center justify-center items-center">
+            <h2 className='text-[30px] font-head' data-aos="fade-up"
+              data-aos-easing="linear">Tokenomics</h2>
+            
 
-                  <img src={logo} data-aos="fade-up"
-            data-aos-easing="linear" className='w-32 floating' alt="" />
+                    <img src={logo} data-aos="fade-up"
+              data-aos-easing="linear" className='w-32 floating' alt="" />
 
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 place-items-center">
-            <div className="shadow-gray-400 shadow-lg w-80 md:fit p-4 rounded-lg " data-aos="fade-left"
-            data-aos-easing="linear" data-aos-duration="1500" >
-              <h3 className='font-head text-[20px]'>10,000,000</h3>
-                <p className='text-center font-texts'>lorem</p>
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8 place-items-center">
+              <div className="shadow-gray-800 shadow-sm w-80 md:fit p-4 rounded-lg " data-aos="fade-left"
+              data-aos-easing="linear" data-aos-duration="1500" >
+                <h3 className='font-head text-[20px]'>10,000,000</h3>
+                  <p className='text-center font-texts'>lorem</p>
+                </div>
+                <div className="shadow-gray-800 shadow-sm w-80 md:fit p-4 rounded-lg" data-aos="fade-right"
+              data-aos-easing="linear"  data-aos-duration="1500">
+                <h3 className='font-head text-[20px]'>10,000,000</h3>
+                  <p className='text-center font-texts'>lorem</p>
+                </div>
+                <div className="shadow-gray-800 shadow-sm w-80 md:fit p-4 rounded-lg" data-aos="fade-left"
+              data-aos-easing="linear"  data-aos-duration="1500">
+                <h3 className='font-head text-[20px]'>10,000,000</h3>
+                  <p className='text-center font-texts'>lorem</p>
+                </div>
+                <div className="shadow-gray-800 shadow-sm w-80 md:fit p-4 rounded-lg" data-aos="fade-right"
+              data-aos-easing="linear"  data-aos-duration="1500">
+                <h3 className='font-head text-[20px]'>10,000,000</h3>
+                  <p className='text-center font-texts'>lorem</p>
+                </div>
               </div>
-              <div className="shadow-gray-400 shadow-lg w-80 md:fit p-4 rounded-lg" data-aos="fade-right"
-            data-aos-easing="linear"  data-aos-duration="1500">
-              <h3 className='font-head text-[20px]'>10,000,000</h3>
-                <p className='text-center font-texts'>lorem</p>
               </div>
-              <div className="shadow-gray-400 shadow-lg w-80 md:fit p-4 rounded-lg" data-aos="fade-left"
-            data-aos-easing="linear"  data-aos-duration="1500">
-              <h3 className='font-head text-[20px]'>10,000,000</h3>
-                <p className='text-center font-texts'>lorem</p>
-              </div>
-              <div className="shadow-gray-400 shadow-lg w-80 md:fit p-4 rounded-lg" data-aos="fade-right"
-            data-aos-easing="linear"  data-aos-duration="1500">
-              <h3 className='font-head text-[20px]'>10,000,000</h3>
-                <p className='text-center font-texts'>lorem</p>
-              </div>
-            </div>
-            </div>
      
 
            
@@ -226,7 +263,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
       </section>
 
 
-      <section className="w-screen bg-contain bg-no-repeat  bg-blue-50 p-6" id='team'>
+      {/* <section className="w-screen bg-contain bg-no-repeat  bg-black text-white p-6" id='team'>
              <div className='p-6 mx-2 ' data-aos="fade-up"
             data-aos-easing="linear"  data-aos-duration="1500">
             <div className="flex flex-col text-center justify-center items-center">
@@ -235,7 +272,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8  p-8 place-items-center">
-              <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
                   <img src={teamOne} className='w-24 rounded-xl' alt="" />
                     <div className="text-center">
@@ -246,7 +283,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
                     </div>
 
               </div>
-              <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
           <img src={teamTwo} className='w-24 rounded-xl' alt="" />
             <div className="text-center">
@@ -257,7 +294,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
             </div>
 
       </div>
-      <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
+      <div className="shadow-gray-800 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
           <img src={teamThree} className='w-24 rounded-xl' alt="" />
             <div className="text-center">
@@ -271,7 +308,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8  p-8 place-items-center">
-              <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
                   <img src={teamFour} className='w-24 rounded-xl' alt="" />
                     <div className="text-center">
@@ -282,7 +319,7 @@ The future of Israel is bright, and you have the power to make a difference. (IS
                     </div>
 
               </div>
-              <div className="shadow-gray-400 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
+              <div className="shadow-gray-800 shadow-lg space-y-3 w-64 flex justify-center items-center flex-col p-4 rounded-lg">
           
           <img src={teamFive} className='w-24 rounded-xl' alt="" />
             <div className="text-center">
@@ -298,28 +335,28 @@ The future of Israel is bright, and you have the power to make a difference. (IS
 
               <div className='my-4 flex justify-center items-center'>
                  <a href="" className='
-                  bg-[#202b8f] transition duration-150 ease-in-out
+                  bg-green-950 transition duration-150 ease-in-out
                  border-white border-2 px-8 py-2 rounded-lg text-lg md:text-2xl 
                  font-head text-white shadow-blue-50 shadow-sm'><FaTelegram/></a>
                  </div>
 
      </div>
          
-      </section>
+      </section> */}
 
-      <section className="w-screen bg-[url('./assets/n4.jpg')] bg-cover bg-no-repeat p-6">
+      <section className="w-screen bg-[url('./assets/new2.png')] bg-contain bg-repeat p-6">
       
              <div className='p-6 mx-2' data-aos="zoom-in"  data-aos-easing="linear"  data-aos-duration="1500">
         
             <div className="flex flex-col text-center text-white justify-center items-center">
-           <h2 className='text-[30px] font-head'>JOIN  ISWI COMMUNITY</h2>
+           <h2 className='text-[30px] font-head'>JOIN  ISWP COMMUNITY</h2>
            <p className='font-texts'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis dolore ullam.</p>
             </div>
 
 
               <div className='my-4 flex justify-center items-center'>
                  <a href="" className='
-                  bg-[#202b8f] transition duration-150 ease-in-out
+                  bg-green-950 transition duration-150 ease-in-out
                  border-white border-2 px-8 py-2 rounded-lg text-lg md:text-2xl 
                  font-head text-white shadow-blue-50 shadow-sm'>Join</a>
                  </div>
@@ -328,10 +365,10 @@ The future of Israel is bright, and you have the power to make a difference. (IS
          
       </section>
 
-      <footer className="w-screen bg-contain bg-no-repeat  bg-blue-100/80 p-6">
+      <footer className="w-screen bg-contain bg-no-repeat  bg-black text-white p-6">
               <div className="flex flex-col text-center md:text-start md:flex-row gap-2 justify-between items-center">
                 <div className='flex flex-row items-center justify-center'>
-                  <img src={logo} className='w-16 spin' alt="" />   <span className='font-head'>ISWI</span>  
+                  <img src={logo} className='w-16 spin mr-3' alt="" />   <span className='font-head'> ISWP</span>  
                 
                 </div>
                 <div>
